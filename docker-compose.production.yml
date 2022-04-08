@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  web:
+    container_name: www.proyectothera.com.ar_web
+    build:
+      context: .
+      dockerfile: docker/production/web/Dockerfile
+    ports:
+      - 80:80/tcp

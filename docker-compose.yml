@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  web:
+    # image: dvorak-dev/barbijos-enlaplata:latest
+    build:
+      context: .
+      dockerfile: docker/development/web/Dockerfile
+    ports:
+      - 80:80/tcp
+    volumes:
+      - .:/usr/share/nginx/html
