@@ -1,4 +1,7 @@
 /docker
 
+/LICENSE.txt
+/README.md
+/README.txt
 /docker-compose.production.yml
 /docker-compose.yml
