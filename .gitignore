@@ -1,3 +1,5 @@
+.DS_Store
+
 /docker/development/web/.env
 /docker/development/web/.env.example
 /docker/production/web/.env
